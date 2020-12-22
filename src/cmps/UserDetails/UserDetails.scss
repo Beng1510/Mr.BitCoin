@@ -1,0 +1,16 @@
+@import '../../assets/scss/setup/variables';
+
+.user-container {
+    
+    .user-details-container {
+        width: 250px;
+        height: 80px;
+        border-radius: 15px;
+        transition: transform 0.24s ease-out;
+        background-color:$clr5 ;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 5px;
+        color: $clr6;
+    }
+}

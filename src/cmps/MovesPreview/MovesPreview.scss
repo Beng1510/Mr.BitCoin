@@ -1,0 +1,17 @@
+@import '../../assets/scss/setup/variables';
+
+.move-preview {
+    height: 80px;
+    width: 270px;
+    border-radius: 15px;
+    transition: transform 0.24s ease-out;
+    background-color:$clr5 ;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: $clr6;
+
+    &:hover {
+      transform: translateY(-3px);
+      transform: scale(1.02);
+}
+}

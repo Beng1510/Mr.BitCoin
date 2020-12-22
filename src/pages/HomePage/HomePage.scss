@@ -1,0 +1,17 @@
+@import '../../assets/scss/setup/variables';
+
+.home-page-hero img {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 900px;
+}
+.home-page-title-box {
+    margin: auto;
+    background-color:$clr4 ;
+    width: 900px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    color: $clr6;
+}

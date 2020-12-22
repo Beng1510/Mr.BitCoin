@@ -1,0 +1,43 @@
+@import '../../assets/scss/setup/variables';
+
+.app-header {
+        padding: 10px 20px;
+        background-color: $secondary;
+        & > *:not(:first-child) {
+          margin-left: 10px;
+        }
+        // .curr-page {
+        //   font-weight: bold;
+        //   // text-decoration: underline;
+        // }
+        .active {
+          color:$clr3;
+          // text-transform: uppercase;
+        }
+        & a:hover {
+          text-decoration: none;
+        
+        }
+        .logo-container {
+          width: 100px;
+          font-family: montserratBold;
+          color:#FF7700;
+          & h2 {
+            margin-left: 20px;
+            font-size: 30px;
+          }
+          
+        }
+      }
+
+      .nav-links-container a {
+        margin-inline-start: 0.75rem;
+        font-size: 20px;
+        &:not(:last-child):after {
+          margin-inline-start: 0.75rem;
+        }
+        & img {
+          width: 100px;
+          height: 100px;
+        }
+      }
